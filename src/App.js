@@ -3,6 +3,7 @@ import './App.css';
 import NavMenu from './components/Menu/NavMenu'
 import Input from './components/Input/Input'
 import Img from './components/Image/Img'
+import ImgTest from  './assets/images/img.jpg'
 import Heading from './components/Heading/Heading'
 import HeadingOne from './components/Heading/HeadingOne'
 
@@ -31,8 +32,8 @@ class App extends Component {
         <br/>
         <Input type="text" className="btnStyle" autoFocus="true" placeholder="my placeholder"/>
         <Input type="text" className="btnStyle" readOnly="readonly"/>
-          
-        <Img src="./assets/images/img.jpg"/>
+
+        <Img src={ImgTest}/>
 
 
         <Heading text="h1" className="heading-style" count={1}/>
