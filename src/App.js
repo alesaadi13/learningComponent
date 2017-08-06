@@ -31,8 +31,7 @@ class App extends Component {
         <br/>
         <Input type="text" className="btnStyle" autoFocus="true" placeholder="my placeholder"/>
         <Input type="text" className="btnStyle" readOnly="readonly"/>
-
-
+          
         <Img src="./assets/images/img.jpg"/>
 
 
