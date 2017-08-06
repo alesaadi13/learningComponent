@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.menu li {
+    float: right;
+    padding: 5px 10px;
+    background: #f2f2f2;
+}
+
+.menu li ul {
+    min-width: 300px;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms, visibility 300ms;
+    transition-delay: 0.4s;
+}
+
+.menu li:hover .subMenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu li ul li {
+    float: right;
+    background: #7fd47f;
+}
+
+.menu div {
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 500px;
+    background: #fba989;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms, visibility 300ms;
+    transition-delay: 0.4s;
+}
+
+.subMenu li:hover .subSubMenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none;
+}
+
+.btnStyle {
+    background: #7fd47f;
+    border: 1px solid #4daf4d;
+    outline: none;
+    margin: 30px;
+}
+
+.heading-style{
+    color: #ff0000;
+}
