@@ -33,7 +33,7 @@ class App extends Component {
         <Input type="text" className="btnStyle" autoFocus="true" placeholder="my placeholder"/>
         <Input type="text" className="btnStyle" readOnly="readonly"/>
 
-        <Img src={ImgTest}/>
+        <Img src={ImgTest} width="200" height="100"/>
 
 
         <Heading text="h1" className="heading-style" count={1}/>
